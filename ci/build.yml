@@ -17,3 +17,4 @@ run:
     mvn package
     ls ./target/*
     pwd
+    copy ./target/springbootsimplerest-0.0.1-SNAPSHOT.jar /tmp

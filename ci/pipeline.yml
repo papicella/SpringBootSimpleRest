@@ -2,7 +2,7 @@ resources:
 - name: SpringBootSimpleRest
   type: git
   source:
-    uri: https://github.com/papicella/SpringBootSimpleRest
+    uri: https://github.com/alejandrogoyen/SpringBootSimpleRest
     branch: master
 - name: resource-deploy-web-app
   type: cf
@@ -24,6 +24,5 @@ jobs:
   - put: resource-deploy-web-app
     params:
       manifest: SpringBootSimpleRest/manifest.yml
-      file: built-project
-    path: SpringBootSimpleRest
+path: built-project/demo.jar
 

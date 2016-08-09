@@ -18,6 +18,4 @@ run:
   - |
     cd SpringBootSimpleRest
     mvn package
-    ls 
-    pwd
-    cp ./target/springbootsimplerest-0.0.1-SNAPSHOT.jar built-project
+    cp ./target/springbootsimplerest-0.0.1-SNAPSHOT.jar ../built-project/demo.jar

@@ -16,3 +16,4 @@ run:
     cd SpringBootSimpleRest
     mvn package
     ls ./target/*
+    pwd

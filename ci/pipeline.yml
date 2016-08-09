@@ -24,5 +24,6 @@ jobs:
   - put: resource-deploy-web-app
     params:
       manifest: SpringBootSimpleRest/manifest.yml
+      file: built-project
     path: SpringBootSimpleRest
 

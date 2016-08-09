@@ -4,7 +4,6 @@ image_resource:
   type: docker-image
   source:
     repository: maven
-    tag: '8'
 
 inputs:
 - name: SpringBootSimpleRest

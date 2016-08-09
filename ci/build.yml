@@ -13,4 +13,6 @@ run:
   args:
   - -exc
   - |
-    ls
+    cd SpringBootSimpleRest
+    mvn package
+    ls ./target/*

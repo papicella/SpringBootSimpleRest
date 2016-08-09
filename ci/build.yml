@@ -3,7 +3,8 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: maven
+    repository: java
+    tag: '8'
 
 inputs:
 - name: SpringBootSimpleRest
@@ -14,5 +15,4 @@ run:
   - -exc
   - |
     cd SpringBootSimpleRest
-    mvn package
-    ls -la ./target
+    ./mvnw package

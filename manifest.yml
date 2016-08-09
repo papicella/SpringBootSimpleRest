@@ -4,6 +4,6 @@ applications:
   instances: 1
   random-route: true
   timeout: 180
-  path: ./springbootsimplerest-0.0.1-SNAPSHOT.jar
+  path: /tmp/build/80754af9/SpringBootSimpleRest/springbootsimplerest-0.0.1-SNAPSHOT.jar
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urando

@@ -2,7 +2,7 @@ resources:
 - name: SpringBootSimpleRest
   type: git
   source:
-    uri: https://github.com/alejandrogoyen/SpringBootSimpleRest
+    uri: https://github.com/papicella/SpringBootSimpleRest
     branch: master
 - name: resource-deploy-web-app
   type: cf

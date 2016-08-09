@@ -15,3 +15,4 @@ run:
   - |
     cd SpringBootSimpleRest
     mvn package
+    ls -la ./target

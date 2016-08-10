@@ -8,8 +8,8 @@ resources:
   type: cf
   source:
     api: https://api.run.pivotal.io
-    username: papicella@pivotal.io
-    password: welcome1
+    username: {{cf-username}}
+    password: {{cf-password}}
     organization: apples-pivotal-org
     space: development
 

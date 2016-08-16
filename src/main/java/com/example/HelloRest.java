@@ -10,6 +10,6 @@ public class HelloRest
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sampleOuput()
     {
-        return "Hello World at " + new java.util.Date();
+        return "Hello World at Suncorp " + new java.util.Date();
     }
 }
